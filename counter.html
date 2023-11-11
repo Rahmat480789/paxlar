@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        .card_wrapper{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            background-color: rgb(67, 155, 126);
+            color: #fff;
+            border-radius: 10px;
+            width: 30%;
+            padding: 200px 0;
+            margin: auto;
+        }
+        .card{
+
+        }
+        h1{
+            font-size: 70px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card_wrapper">
+        <div class="card">
+            <h4>Girlfriends no of Rahmat</h4>
+            <h1>
+                <span class="counter">5240.00</span>
+            </h1>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
+    <script>
+        $('.counter').counterUp({
+        delay: 10,
+        time: 8000,
+    });
+    </script>
+</body>
+</html>
